@@ -1,0 +1,23 @@
+{
+    "model_name": "MNASNet",
+    "n_classes": 4,
+    "dataset": "PSC_Top_DataSet",
+    "augmentation_path": "./configs/augmentations/no_augmentation.json",
+    "use_pt_norm": "True",
+
+    "loss": "Focal_Loss",
+
+    "epoch": 120,
+
+    "lr": 1e-4,
+    "lr_decay_steps": 40,
+    "lr_decay_gamma": 0.1,
+    "weight_decay": 1e-3,
+
+    "batch_size": 64,
+    "num_workers": 8,
+
+    "gpu_ids": "0",
+
+    "evaluation": "F1Score"
+}
