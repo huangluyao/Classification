@@ -71,8 +71,8 @@ This project has the following dependencies:
 ## Results
 
 - The best score of MobileNetv3 on F1Score was 99.43% with **HorizontalFlip**
-
 - The best score of EfficientNet on F1Score was 100% with **ColorJitter**
+- The best score of MobileNetv3 on F1Score was 100% by **knowldege distillation**
 
 #### Four tests on MobileNetv3
 
